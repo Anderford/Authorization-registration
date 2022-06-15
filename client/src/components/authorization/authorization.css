@@ -1,0 +1,39 @@
+.authorization {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  align-items: center;
+  background-color: white;
+  align-self: center;
+  margin-top: 200px;
+}
+
+.authorization_header {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.authorization input {
+  margin-top: 25px;
+  border: 2px solid rgb(16, 88, 182);
+  border-radius: 15px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.authorization_btn {
+  margin-top: 25px;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(16, 88, 182);
+  color: white;
+  cursor: pointer;
+}
+
+.authorization_btn:hover {
+  background-color: rgb(22, 106, 216);
+}
